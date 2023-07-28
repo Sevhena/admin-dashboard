@@ -16,11 +16,12 @@
             </div>
             <div class="profile">
                 <div id="notif-icon"></div>
-                <div class="profile-pic"></div>
+                <div class="profile-pic"><img src="./ressources/profile-pic-placeholder.png"/></div>
                 <div class="username">John Doe</div>
             </div>
             <div class="welcome">
-                <div class="profile-pic"></div>
+                <div class="profile-pic"><img src="./ressources/profile-pic-placeholder.png"/></div>
+                <!-- Image by <a href="https://pixabay.com/users/raphaelsilva-4702998/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3814049">Raphael Silva</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=3814049">Pixabay</a> -->
                 <div class="greeting">
                     <p>Hi there,</p>
                     <div>
@@ -36,19 +37,25 @@
             </div>
         </div>
         <div class="sidebar">
-            <div class="logo"></div>
+            <div id="logo"><span class icon></span>Dashboard</div>
             <ul class="nav">
-                <li><a href="#"><span class="icon">Home</span></a></li>
-                <li><a href="#"><span class="icon">profile</span></a></li>
-                <li><a href="#"><span class="icon">Messages</span></a></li>
-                <li><a href="#"><span class="icon">History</span></a></li>
-                <li><a href="#"><span class="icon">Tasks</span></a></li>
-                <li><a href="#"><span class="icon">Communities</span></a></li>
+                <li><a href="#">
+                    <span class="icon">
+                        <!-- <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 16 16">
+                            <title>home</title>
+                            <path class="icon-box" d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" fill="white"/>
+                        </svg> -->
+                    </span>Home</a></li>
+                <li><a href="#"><span class="icon"></span>Profile</a></li>
+                <li><a href="#"><span class="icon"></span>Messages</a></li>
+                <li><a href="#"><span class="icon"></span>History</a></li>
+                <li><a href="#"><span class="icon"></span>Tasks</a></li>
+                <li><a href="#"><span class="icon"></span>Communities</a></li>
             </ul>
             <ul class="admin-nav">
-                <li><a href="#"><span class="icon">Settings</span></a></li>
-                <li><a href="#"><span class="icon">Support</span></a></li>
-                <li><a href="#"><span class="icon">Privacy</span></a></li>
+                <li><a href="#"><span class="icon"></span>Settings</a></li>
+                <li><a href="#"><span class="icon"></span>Support</a></li>
+                <li><a href="#"><span class="icon"></span>Privacy</a></li>
             </ul>
         </div>
         <div class="content">
@@ -58,8 +65,8 @@
                     <div class="overlay">
                         <a href="#">
                             <div class="card">
-                                <h3></h3>
-                                <p></p>
+                                <h3>Super Cool Project</h3>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, quae. Eos aperiam placeat, molestiae saepe esse similique accusamus atque libero culpa earum beatae animi totam cum cupiditate, doloribus ad qui!</p>
                             </div>
                         </a>
                         <ul class="icons">
@@ -71,8 +78,8 @@
                     <div class="overlay">
                         <a href="#">
                             <div class="card">
-                                <h3></h3>
-                                <p></p>
+                                <h3>Less Cool Project</h3>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eum a ad veniam debitis aut dolor magni iusto ab explicabo voluptatum ducimus recusandae incidunt similique corporis, asperiores, enim nobis rem!</p>
                             </div>
                         </a>
                         <ul class="icons">
@@ -84,8 +91,8 @@
                     <div class="overlay">
                         <a href="#">
                             <div class="card">
-                                <h3></h3>
-                                <p></p>
+                                <h3>Impossible App</h3>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt officia suscipit ex reprehenderit, tempora dicta dolorum, quasi laboriosam veniam maxime autem blanditiis aut quae reiciendis atque, laborum eaque voluptatibus consequuntur?</p>
                             </div>
                         </a>
                         <ul class="icons">
@@ -97,8 +104,8 @@
                     <div class="overlay">
                         <a href="#">
                             <div class="card">
-                                <h3></h3>
-                                <p></p>
+                                <h3>Easy Peasy App</h3>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nisi ab, corporis veritatis reiciendis autem error magnam porro eveniet sed non praesentium, ea maxime similique? Hic, itaque. Autem, laboriosam nihil?</p>
                             </div>
                         </a>
                         <ul class="icons">
@@ -110,8 +117,8 @@
                     <div class="overlay">
                         <a href="#">
                             <div class="card">
-                                <h3></h3>
-                                <p></p>
+                                <h3>Ad Blocker</h3>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda obcaecati nostrum ut sint dolore perferendis neque debitis, tenetur sapiente est veritatis, culpa fuga corporis voluptas, earum iste quidem dolorem vitae.</p>
                             </div>
                         </a>
                         <ul class="icons">
@@ -123,8 +130,47 @@
                     <div class="overlay">
                         <a href="#">
                             <div class="card">
-                                <h3></h3>
-                                <p></p>
+                                <h3>Money Maker</h3>
+                                <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates possimus quae alias explicabo officia at provident sed consequatur aliquam ea, quisquam accusamus harum enim! Maiores in placeat quisquam similique saepe.</p>
+                            </div>
+                        </a>
+                        <ul class="icons">
+                            <li class="add-favourite"><a href="#"></a></li>
+                            <li class="add-collab"><a href="#"></a></li>
+                            <li class="share"><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="overlay">
+                        <a href="#">
+                            <div class="card">
+                                <h3>Tie Breaker</h3>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque aspernatur accusamus qui et a illo voluptate. Ducimus aspernatur enim sint doloribus, impedit fugit corporis voluptates, eveniet quo suscipit culpa dolor?</p>
+                            </div>
+                        </a>
+                        <ul class="icons">
+                            <li class="add-favourite"><a href="#"></a></li>
+                            <li class="add-collab"><a href="#"></a></li>
+                            <li class="share"><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="overlay">
+                        <a href="#">
+                            <div class="card">
+                                <h3>Ticket Machine</h3>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis aspernatur officia quam quis vero voluptas natus adipisci consectetur, beatae mollitia architecto blanditiis quibusdam quo sapiente ipsum. Quibusdam placeat dolore fuga.</p>
+                            </div>
+                        </a>
+                        <ul class="icons">
+                            <li class="add-favourite"><a href="#"></a></li>
+                            <li class="add-collab"><a href="#"></a></li>
+                            <li class="share"><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div class="overlay">
+                        <a href="#">
+                            <div class="card">
+                                <h3>Computer Vision</h3>
+                                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eligendi illo odio dicta, incidunt temporibus voluptatum in veniam ut quia! Reprehenderit aliquam nisi cupiditate itaque dolores similique! Reprehenderit, suscipit debitis.</p>
                             </div>
                         </a>
                         <ul class="icons">
@@ -142,13 +188,16 @@
                     <h2 class="content-heading">Annoucements</h2>
                     <div>
                         <div class="card">
-
+                            <h3>Site Maintenance</h3>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui perferendis repellat mollitia eum obcaecati omnis iste, similique enim, laboriosam veritatis hic. Quae expedita aliquam vel, blanditiis sapiente provident illum nesciunt?</div>
                         </div>
                         <div class="card">
-                            
+                            <h3>Community Share Day</h3>
+                            <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore nulla repellat eveniet, nam recusandae inventore ea soluta aliquam voluptatem quod. Ab dolor accusantium vel temporibus praesentium laudantium. Sint, cumque non?</div>
                         </div>
                         <div class="card">
-                            
+                            <h3>Updated Privacy Policy</h3>
+                            <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit mollitia enim, soluta sunt iure pariatur. Labore quasi, unde commodi neque expedita praesentium optio deleniti aspernatur cum numquam provident quo error?</div>
                         </div>
                     </div>
                 </div>
@@ -156,17 +205,33 @@
                 <div class="trending">
                     <h2 class="content-heading">Trending</h2>
                     <div>
-                        <div class="card">
-
+                        <div class="card" id="trend-1">
+                            <div class="profile-pic"><img src="#" alt="profile picture"></div>
+                            <div>
+                                <div class="handle">@<span>marysue</span></div>
+                                <div class="project-name text">Generic Names Always</div>
+                            </div>
                         </div>
-                        <div class="card">
-                            
+                        <div class="card" d="trend-2">
+                            <div class="profile-pic"><img src="#" alt="profile picture"></div>
+                            <div>
+                                <div class="handle">@<span></span></div>
+                                <div class="project-name text"></div>
+                            </div>
                         </div>
-                        <div class="card">
-                            
+                        <div class="card" id="trend-3">
+                            <div class="profile-pic"><img src="#" alt="profile picture"></div>
+                            <div>
+                                <div class="handle">@<span></span></div>
+                                <div class="project-name text"></div>
+                            </div>
                         </div>
-                        <div class="card">
-                            
+                        <div class="card" id="trend-4">
+                            <div class="profile-pic"><img src="#" alt="profile picture"></div>
+                            <div>
+                                <div class="handle">@<span></span></div>
+                                <div class="project-name text"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
